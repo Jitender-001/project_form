@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: ;
+     */
+     background-image: linear-gradient(to top, #d16ba5, #bc71af, #a577b4, #907bb4, #7d7eaf, #6879a3, #577294, #4b6b84, #395b6c, #2b4c55, #223c3f, #1a2c2c);
+}
+
+.container{
+    border: 1px solid red;
+    height: auto;
+    width: 60vw;
+    /* background-color: rgb(95, 48, 114); */
+    color: white;
+    background-image: linear-gradient(to left bottom, #d16ba5, #bc71af, #a577b4, #907bb4, #7d7eaf, #6a7ba5, #5b7799, #50728c, #416779, #365c66, #305054, #2b4443);
+    border-radius: 18px;
+    border: none;
+    box-shadow: 0 5px 10px 2px rgba(67,21,10,0.5);
+}
+
+.buttons button{
+    margin-left: 7px;
+    border: none;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+form label{
+    font-size: 18px;
+}
